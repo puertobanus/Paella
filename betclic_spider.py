@@ -29,6 +29,10 @@ class BetclicSpider(scrapy.Spider):
             
 
 
+
+
+
+
 # response.xpath('//div/@data-track-event-name').extract()
 #         print sel.xpath('.//div/@data-track-event-name').extract()
 # entry day-entry grid-9 nm
