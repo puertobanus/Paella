@@ -15,7 +15,7 @@ class BetclicSpider(scrapy.Spider):
     start_urls = [
         "https://www.betclic.fr/football/ligue-1-e4",
     ]
-
+    #LOL
     def parse(self, response):
         print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         for day in response.xpath('.//div[@class="entry day-entry grid-9 nm"]'):
