@@ -28,7 +28,7 @@ class BetclicSpider(scrapy.Spider):
             print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
             
 
-
+#  zezrezj
 
 
 
