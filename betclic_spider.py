@@ -18,6 +18,7 @@ class BetclicSpider(scrapy.Spider):
     #LOL
     def parse(self, response):
         print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        #tu vois ce changement?
         for day in response.xpath('.//div[@class="entry day-entry grid-9 nm"]'):
             print day.xpath('.//time/@datetime').extract()
             for hour in day.xpath('.//div[@class="schedule clearfix"]'):
